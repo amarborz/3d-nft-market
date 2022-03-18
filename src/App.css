@@ -1,38 +1,77 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #3AAFA9;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.canvas {
+  height: 70vh;
+  width: 40vw;
+  margin-left: 10%;
+}
+
+.info {
+  height: 70vh;
+  width: 40vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 12%;
+  text-align: left;
+}
+
+.info-btn {
+  width: 100px;
+}
+
+.toggle-btn {
+  margin-top: 0.5rem;
+}
+
+.title-big {
   color: white;
+  text-decoration: underline;
+  font-size: 4rem;
+  transform: rotate(90deg);
 }
 
-.App-link {
-  color: #61dafb;
+.home-text {
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo-text {
+  font-size: xx-large;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.logo-img {
+  width: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .canvas {
+    width: 80vw;
   }
-  to {
-    transform: rotate(360deg);
+
+  .info {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
+    height: 50vh;
   }
+
 }

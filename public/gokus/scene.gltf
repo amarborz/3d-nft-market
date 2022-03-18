@@ -1,0 +1,229 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5356,
+      "max": [
+        0.11570200324058533,
+        0.09578700363636017,
+        0.5879049897193909
+      ],
+      "min": [
+        -0.13598300516605377,
+        -0.08395600318908691,
+        0.00133500003721565
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 64272,
+      "componentType": 5126,
+      "count": 5356,
+      "max": [
+        0.07569770514965057,
+        -0.06049714982509613,
+        -0.026800008490681648
+      ],
+      "min": [
+        -0.735937774181366,
+        -0.7478976845741272,
+        -0.9961531162261963
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5356,
+      "max": [
+        0.9975688457489014,
+        0.9975236654281616,
+        0.999322235584259,
+        1.0
+      ],
+      "min": [
+        -0.9976165294647217,
+        -0.9975186586380005,
+        -0.9993194341659546,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5356,
+      "max": [
+        0.9965999722480774,
+        0.9919000267982483
+      ],
+      "min": [
+        0.004900000058114529,
+        0.007499999832361937
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19152,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Nemix (https://sketchfab.com/nemix)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/goku-6a79ab6b70b747b68e787da1458ab582",
+      "title": "Goku"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 76608,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 42848,
+      "byteOffset": 76608,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 128544,
+      "byteOffset": 119456,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85696,
+      "byteOffset": 248000,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 333696,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Scene_-_Root_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Scene_-_Root_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.5992759146341463
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.9899008274078369,
+        -1.2933482060118616e-16,
+        -0.14176179468631744,
+        0.0,
+        -0.14176179468631744,
+        -2.1980213813673478e-16,
+        0.9899008274078369,
+        0.0,
+        -1.59188195733421e-16,
+        1.0,
+        1.992475684544352e-16,
+        0.0,
+        -0.0193400327116251,
+        2.932951875517287e-18,
+        -0.013208840973675251,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "untitled.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
